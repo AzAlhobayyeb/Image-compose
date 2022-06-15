@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1654529621577.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1654560335843.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1654614399417.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1654615145370.xml" value="0.22" />
+        <entry key="../../../../layout/compose-model-1654701947724.xml" value="0.27280405405405406" />
+        <entry key="../../../../layout/compose-model-1654708946782.xml" value="0.2" />
+        <entry key="../../../../layout/compose-model-1654714084724.xml" value="0.22" />
+        <entry key="../../../../layout/compose-model-1654714263007.xml" value="0.24451013513513514" />
+        <entry key="../../../../layout/compose-model-1654786883387.xml" value="0.27280405405405406" />
+        <entry key="../../../../layout/compose-model-1654792085715.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1654793314273.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1654793624379.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1654796326169.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1655046727499.xml" value="0.25971283783783783" />
+        <entry key="../../../../layout/compose-model-1655051479413.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1655305044506.xml" value="0.23981481481481481" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
