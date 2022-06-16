@@ -61,10 +61,10 @@ class MainActivity : ComponentActivity() {
                     Surface(
                         modifier = Modifier
                             .fillMaxSize()
-                            .background(color = MaterialTheme.colors.onPrimary)
+                            .background(color = MaterialTheme.colors.primary)
                             .padding(8.dp),
 
-                        color = MaterialTheme.colors.onPrimary,
+                        color = MaterialTheme.colors.primary,
                     ) {
                         LazyVerticalGrid(
                             cells = GridCells.Fixed(2),
