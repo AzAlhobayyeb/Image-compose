@@ -13,10 +13,10 @@ val Shapes = Shapes(
         bottomStart = 60.dp
     ),
     medium = CutCornerShape(
-        topStart = 25.dp,
-        topEnd = 25.dp,
-        bottomStart = 16.dp,
-        bottomEnd = 16.dp
+        topStart = 35.dp,
+        topEnd = 8.dp,
+        bottomStart = 35.dp,
+        bottomEnd = 8.dp
     ),
     large = RoundedCornerShape(0.dp)
 )
