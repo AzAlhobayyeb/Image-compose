@@ -1,6 +1,7 @@
 package com.example.firstbootcampapp.ui.imagelist
 
 
+import android.util.Log
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -15,8 +16,7 @@ import javax.inject.Inject
 @HiltViewModel
 class ImagesViewModel @Inject constructor(
     private val repository: ImageRepository
-)
-    : ViewModel() {
+) : ViewModel() {
 private  val _state = mutableStateOf(ImageListState())
     val state : State<ImageListState> = _state
 
@@ -32,7 +32,9 @@ private  val _state = mutableStateOf(ImageListState())
                     _state.value = ImageListState(isLoading = true)
                 }
                 is Response.Success -> {
-                 _state.value = ImageListState(images = it.data ?: emptyList())
+                    Log.e("ViewModel", "Hereee ${it.data}")
+
+                    _state.value = ImageListState(images = it.data ?: emptyList())
                 }
                 is Response.Error -> {
                     _state.value = ImageListState(error = it.msg ?: "error")

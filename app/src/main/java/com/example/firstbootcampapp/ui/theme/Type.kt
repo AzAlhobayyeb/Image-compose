@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.sp
 import com.example.firstbootcampapp.R
 
 val fontFamily = FontFamily(
-Font(R.font.nosifer)
+    Font(R.font.nosifer)
 )
 
 // Set of Material typography styles to start with
@@ -27,7 +27,7 @@ val Typography = Typography(
         letterSpacing = 0.1.sp,
         textAlign = TextAlign.Center,
         fontFamily = fontFamily
-        )
+    )
     /* Other default text styles to override
     button = TextStyle(
         fontFamily = FontFamily.Default,

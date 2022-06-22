@@ -5,6 +5,6 @@ import com.example.firstbootcampapp.data.domain.ImageData
 
 data class ImageListState(
     val isLoading: Boolean = false,
-    val error: String = "error",
+    val error: String = "",
     val images: List<ImageData> = emptyList()
 )

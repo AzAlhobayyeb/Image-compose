@@ -25,7 +25,6 @@ fun ImageCard(image: ImageData){
         modifier = Modifier
             .padding(16.dp)
             .size(300.dp)
-            .background(Color.Yellow)
     ) {
         Box(){
             NetworkImage(
@@ -33,7 +32,6 @@ fun ImageCard(image: ImageData){
                 contentDesc = image.author,
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(color = Color.Yellow)
                     .align(Alignment.TopCenter),
             )
 

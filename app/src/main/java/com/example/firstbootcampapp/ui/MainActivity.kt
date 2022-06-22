@@ -15,12 +15,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             FirstBootcampAppTheme {
-                FirstBootcampAppTheme {
 
-                    window.statusBarColor = MaterialTheme.colors.primaryVariant.toArgb()
+                window.statusBarColor = MaterialTheme.colors.primaryVariant.toArgb()
 
-                    ImageScreen()
-                }
+                ImageScreen()
             }
         }
     }
