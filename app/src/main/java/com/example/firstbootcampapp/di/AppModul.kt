@@ -27,10 +27,7 @@ object AppModul {
 
     @Provides
     @Singleton
-    fun providerepo(api: PicsumAPI): ImageRepository{
-        return ImageRepository(picsumapi = api)
+    fun provideRepo(api: PicsumAPI): ImageRepository{
+        return ImageRepository(picsumApi = api)
     }
-
-
-
 }

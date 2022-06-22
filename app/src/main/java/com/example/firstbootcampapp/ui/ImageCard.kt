@@ -9,35 +9,36 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.unit.dp
 import com.example.firstbootcampapp.data.domain.ImageData
+import com.example.firstbootcampapp.ui.imagelist.NetworkImage
 
 
 @Composable
-fun ImageCard(imageData: ImageData){
+fun ImageCard(image: ImageData){
     Card(
         elevation = 5.dp,
-        modifier = Modifier.padding(16.dp).size(300.dp)
+        modifier = Modifier
+            .padding(16.dp)
+            .size(300.dp)
+            .background(Color.Yellow)
     ) {
-        Box(
-            modifier = Modifier
-        ) {
-            Image(
-                bitmap = ImageBitmap.imageResource(imageData.photoPath),
-                contentDescription = imageData.title,
-                contentScale = ContentScale.Crop,
+        Box(){
+            NetworkImage(
+                url = image.downloadUrl,
+                contentDesc = image.author,
                 modifier = Modifier
                     .fillMaxSize()
+                    .background(color = Color.Yellow)
                     .align(Alignment.TopCenter),
-
-
             )
 
             Text(
-                text = imageData.title.uppercase(),
+                text = image.author.uppercase(),
                 color = MaterialTheme.colors.onPrimary,
                 modifier = Modifier
                     .align(Alignment.BottomCenter)

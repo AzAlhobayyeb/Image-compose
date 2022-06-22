@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.*
 import androidx.compose.ui.graphics.toArgb
-import com.example.firstbootcampapp.ui.imagestyle.ImageScreen
+import com.example.firstbootcampapp.ui.imagelist.ImageScreen
 import com.example.firstbootcampapp.ui.theme.FirstBootcampAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 

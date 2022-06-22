@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.firstbootcampapp">
 
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
     <application
         android:name=".ImageApp"
         android:allowBackup="true"
